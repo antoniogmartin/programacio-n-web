@@ -1,0 +1,498 @@
+
+
+body
+	{
+	width: 100%;
+	height: 100%;
+	background-color:#e6ffff;
+	font-size: 100%; 
+	margin:0%;
+
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section {
+	display: block; 
+}
+nav ul {
+	list-style: none;
+}
+
+a{ 
+	background: transparent;
+}
+
+h1 {
+	font-size: 46px;
+	/*padding:0 0 0 0;*/
+	margin:0px;
+	display:inline-block; 
+	
+}
+h3 {
+	font-size: 18;
+	display:inline-block; 
+	padding-right: 20px;
+
+
+}
+
+
+/**************TABLE SPACE*************************/
+table{
+  border-style: solid;
+  border-width: 1.5px;
+  width:100%;
+}
+
+td.secciones{ padding: 0.9% 0 0 0;
+}
+
+table.secciones{
+	border-style: groove;
+	width: 100%;
+	padding: 0 0% 0% 0;/*arriba,derecha,abajo,izq*/
+	border-spacing: 0;
+}
+
+table.disco{
+	margin: 0.5%;
+	background-color: #f8f8E8 ;
+	border-style: double;
+	display: inline;
+	border-width: 3px;
+	width: 20%;
+	font-size: 12px;
+	
+
+}
+table.seleccion_discos{
+	margin:2.5%;
+	border-style: none;
+	display: inline;
+	width: 60%;
+}
+table.seleccion_discos table.disco{width: 100%;}
+table.seleccion_discos td{width: 50%;}
+table.seleccion_discos table.disco td{width: 70%;}
+
+table.info_disco{ /*tabla que engloba a la imagen y la info del disco ampliado*/
+	width:30%;
+	float: left;
+	margin: 1%;
+	border-style: none;
+}
+
+table.datos_disco{ /*tabla con la info del disco*/
+	width:100%;
+	margin: 0%;
+	border-style: none;
+}
+
+table.pista{ 
+	width:60%;
+	height: 40%;
+	margin-right: 3%;
+	float: right;
+	border-style: solid;
+	border-width: 1px;
+}
+table.pista td{ /*damos formato al td de deno pista*/
+	border-style: solid;  
+	border-width: 1px; 
+}
+
+/***********************/
+/* change border colour to suit your needs */
+
+input, select {
+vertical-align: right; }
+/* END RESET */
+
+/**************SECTION SPACE*************************/
+
+section.id_form
+{
+	width: 50%;
+	padding-top: 2%;
+	float: right; 
+	font-family: Verdana, Arial, sans-serif;
+	
+}
+
+section.secciones{
+width: 70%;
+margin: 0%;
+float: left;
+font-family: Verdana, Arial, sans-serif;
+padding: 0.5% 0% 0% 0%;
+
+}
+
+section.main {
+width: 100%;
+margin: 0%;
+float: left;
+font-family: Verdana, Arial, sans-serif;
+padding: 0% 0% 0% 0%;
+}
+
+header {
+
+width:100%;
+padding: 0% 0% 0% 0%;
+}
+
+section.cuadros{
+	padding-top: 6%;
+	width: 70%;
+	height: 100%;
+	margin: 0%;
+}
+
+
+section.noticias { 
+	width:49.5%;
+	height: 40%;
+	float: left;
+	font-size: 12px;
+	font-family: Verdana, Arial, sans-serif;
+	border-style: groove;
+	border-width:2px;
+}
+section.noticias table.disco{
+	width: 80%;
+	margin: 5%;
+	
+
+}
+
+section.ult_disc{
+	width: 100%;
+	margin: 0% auto;
+	float: left; 
+	font-family: Verdana, Arial, sans-serif;
+	padding: 0 0% 0 0;
+	
+	background-color:lightblue;
+	font-size: 12px;
+}
+section.ult_disc_detalle{
+	clear: both;
+}
+section.categoria{
+	float:left;
+	border-style: solid;
+	border-width: 2px;
+	background-color:#f8f8E8; 
+}
+
+section.ad_tab{
+	width: 6%;
+	margin: 0% auto;
+	float:right;
+}
+
+section.novedad{
+	width:70%;
+	margin:0%;
+}
+section.disco_novedad{
+	width: 33.3%;
+	height:auto;
+	margin: 0%;
+	float:left;
+	background-size: 100% 100%;
+	
+}
+#disco_novedad1{
+	background-image:url("./rock/rihanna_anti_20160320/rihanna_anti_20160320.jpg");
+	
+}
+#disco_novedad2{
+	background-image:url("./edm/armin_van_buuren_embrace_20151029/armin_van_buuren_embrace_20151029.jpg");
+	
+}
+#disco_novedad3{
+	background-image:url("./reggaeton/cali_el_dandee_juan_magan_por_fin_te_encontre_20150925/cali_el_dandee_juan_magan_por_fin_te_encontre_20150925.jpeg");
+	
+}
+
+
+section.disco_novedad section.comentario{
+	float: right;
+	margin-top: 49%;
+	margin-bottom: 1%;
+	width: 45%;
+	height: 5%;
+}
+section.disco_novedad audio{
+	margin-top:1%;
+}
+section.genero{
+	width:69.7%;
+	margin-top:0.9%;
+	float: left;
+	background-color: lightblue;
+	border-style: solid;
+	border-width: 1px;
+}
+section.disco_ampliado{ /*titulo del disco ampliado*/
+	width:50%;
+	margin-top:0.9%;
+	margin-left: 10%;
+	float: left;
+	background-color: #ffb399;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+}
+
+section.mas_vendido{
+	width:40%;
+	margin:3%;
+	margin-right: 27%;
+	float: left;
+	background-color:#f8f8E8;
+	border-style: solid;
+	border-width: 1px;
+}
+
+section.descripcion{
+	width:60%;
+	float: right;
+	margin: 0%;
+	padding: 0% 0% 0% 0%;
+}
+section.comentario_mas_vendido{
+	width: 35%;
+	height: 5%;
+	float: right;
+	margin: 1%;
+	background-color: white;
+	font-size: 12px;
+	border-style: solid;
+	border-width: 1px;
+}
+section.album{
+	width:69.7%;
+	margin-top:0.9%;
+	float: left;
+	background-color: #ffb399;
+	border-style: solid;
+	border-width: 1px;
+}
+section.opciones_disco{
+	width: 40%;
+	margin-top: 10%;
+	height: 20%;
+	margin-right:3%;
+	float: right;
+	display: inline-block;
+
+}
+section.opciones_disco section{height: 20%; margin-top: 3%;}
+section.opciones_disco input{margin-top: 3.5%;height: 20%;}
+
+
+section.comentario{
+	width: 48%;
+	height: 3%;
+	float: left;
+	margin: 1%;
+	background-color: white;
+	font-size: 12px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+section.opciones_disco section.comentario{ width:30%; }
+section.disco td{
+	width: 20%;
+}
+
+section.formato_suscribir{
+	width:66%;
+	margin-left: 2%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	border-style: solid;
+	border-width: 1px;
+
+}
+section.subtitulo{
+	width: 66%;
+	margin-left: 2%;
+	margin-top:9%;
+	margin-bottom:1%;
+	border-style: solid;
+	border-width: 1px;
+}
+
+section.suscribir{
+	width: 100%;
+	margin-left: 9%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+
+section.suscribir label{
+	width: 30%;
+}
+section.suscribir input{
+	width: 15%;
+	margin-left: 5%; 
+}
+section.foot{
+	text-decoration: none;
+	color:white;
+	text-align: center;
+}
+section.foot a{
+	color:white;
+	text-align: center;
+}
+section.foot a:hover{
+	color:red;
+	text-align: center;
+}
+/*********************/
+
+footer {
+clear: both; 
+padding: 0em 1%;
+background-color: #52527a
+}
+
+
+/* Header */
+header { 
+	background-color: #33ccff;
+	padding-bottom: 0%;
+	padding-right: 0%;
+	font-family: "Frijole", Arial, sans-serif; color: #eee;
+	
+
+}
+
+
+
+/* Form */
+	fieldset {
+		padding: 0.5em 1% 1em;
+	}
+	legend {
+		text-transform: uppercase; font-size: 1.2em;
+		font-weight: bold; padding-bottom: 3px; border-bottom: 1px solid #333; width: 100%;
+	}
+	form ol, form ul {
+		list-style-type: none;
+		margin: 0 2%; 
+	}
+form li {
+margin: 0.5em 0;
+}
+label {
+font-size: 0.9em;
+}
+form ol li label { 
+	display: block;
+}
+form ul li label { 
+	display: inline;
+}
+input[type="text"],input[type="password"], input[type="number"], input[type="tel"], input[type="email"], input[type="date"] {
+	width: 30%;
+	padding: 0% 0.3%;
+	margin-top: 0.2%;
+	font-size: 1em;
+	color: #eee;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.6); -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px;
+}
+input[type="number"], input[type="date"] {
+	width: 20%; 
+}
+input[type="submit"] { background-color: rgba(0, 0, 0, 0.6); color: #eee;
+padding: 0.15em 0.3%;
+font-size: 1em;
+border: none; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px;
+margin-left: 0%;
+}
+
+/***IMG*/
+
+section.ad_tab img{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+}
+	
+section.genero img{
+	padding-top:0%;
+	width: 8%;
+	height:12%;
+	margin: 0%;
+	}
+section.mas_vendido img{
+
+	width:25%;
+	height:25%;
+	margin: 2%;
+}
+table.info_disco img{
+	width:100%;
+	height:40%;
+	margin:0%;
+}
+/*** a***/
+section.novedad a{ 
+	font-size: 0;
+	text-decoration: none; }
+/****p*****/
+
+
+/* Aside */
+aside {
+	width: 21%; 
+	float: right;
+	background-color: #ccc; 
+	padding-top: 5px;
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; 
+	-o-border-radius: 4px; 
+	border-radius: 4px;
+}
+aside table.disco{
+	width: 100%;
+	
+
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 768px){
+	aside{ display: none; }/*ocultamos los discos en el lateral*/
+	section.id_form{width: auto;}/*para observar correctamente el boton acceder*/
+	section.id_form label{display: none;}
+	input#campoDeTexto1{display: none;}
+	input#campoDeTexto2{display: none;}
+	input#button1{float: right;margin:1%; }
+	section.ad_tab{display: none;}/*ocultamos anuncios*/
+	section.novedad{width: 100%; height: auto;}/*redimensionamos discos_novedad*/
+	td#seccion1.secciones{display: none;}
+	section#disco_novedad1.disco_novedad{margin:auto;float: none;width: auto; height: auto;}/*redimensiono el disco*/
+	section#disco_novedad3.disco_novedad{display:none;}/*novedad2 y novedad3 desaparecen*/
+	section#disco_novedad2.disco_novedad{display:none;}
+	section.disco_novedad audio{width: 100%;}/*redimensiono audio*/
+	section.disco_novedad section.comentario{width: 30%;height: 8%;}/*redimensiono comentario*/
+	section.secciones{width: 100%;}
+	section.cuadros{width: 98%;height: 98%;margin: 2%;}
+	section.noticias{width: inherit;height: 50%; }
+	section.categoria{width: 90%;margin-left:2%;margin-bottom:1%;}
+	section.ult_disc_detalle{width: inherit;}
+	table.disco{width: 90%;margin-left:2%;margin-bottom:1%;}
+	p{font-weight: 20px}
+
+
+}
